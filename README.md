@@ -50,6 +50,15 @@ In order to install `npm`, [stretch-backports need to be added to your sources.l
 # systemctl start mariadb
 ````
 
+### Ubuntu 20.04.1
+````
+# sudo apt-get install openvpn apache2 php-mysql mysql-server php-zip php unzip git wget sed curl git npm
+# cd /root
+# git clone https://github.com/Chocobozzz/OpenVPN-Admin.git
+# cd OpenVPN-Admin
+# npm install -g bower
+# ./install.sh  /var/www/html/ www-data www-data
+````
 ### Other distribution... (PR welcome)
 
 ## Tests
